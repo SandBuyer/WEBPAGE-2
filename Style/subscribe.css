@@ -1,0 +1,12 @@
+#subscribe{
+    background-image: url(https://coderthemes.com/dojek/layouts/images/cta-bg.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-color: #343a40;
+    background-position: center;
+
+    .container{
+        background-size:auto;
+        padding-left: 50px;
+    }
+}

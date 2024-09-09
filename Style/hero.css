@@ -1,0 +1,35 @@
+.hero {
+    display: flex;
+    justify-content: left;
+    
+
+}
+
+section.hero-under {
+    display: flex;
+    justify-content: center
+}
+
+.hero-info{
+    .hero-discount {
+        background-color: #f8f9fa;
+        border: 1px solid #eceff2;
+        padding: 2px 15px;
+        color: #6c757d;
+        border-radius: 3px;
+    }
+       
+}
+/* surasti kur ikisti kad veiktu */
+.header-footer{
+    margin-top: 50px;
+    display: flex;
+    /* gap: 100px; */
+    justify-content: space-between;
+    padding: 0 40px;
+        img{
+            width: 20%;
+        }
+} 
+
+

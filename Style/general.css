@@ -1,0 +1,45 @@
+:root{
+    --tamsi-spalva: #343a40
+}
+
+
+@font-face {
+font-family: "mano sriftas";
+    src: url("../assets/fonts/Cerebri.Sans.Pro/CerebriSansPro-Medium.ttf") format("truetype");
+    }
+
+
+body {
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "mano sriftas";
+    color: var(--tamsi-spalva);
+
+}
+
+.container{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    max-width: 1140px;
+
+
+}
+
+*{
+    font-family: "Mandali", sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+button{
+    cursor: pointer;
+}

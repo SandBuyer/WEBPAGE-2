@@ -1,0 +1,56 @@
+/* headerio stiliai */
+header{
+    background-image: url();
+    background-repeat: no-repeat;
+    /* headerio vaikai */
+    .nav-container{
+        border-bottom: 1px transparent rgb(141, 138, 138);
+        box-shadow: 1px 1px 3px rgb(141, 137, 137);
+        justify-content:space-around;
+        align-items:center;
+        background-color: #fff;
+        position:sticky;
+        top: 0;
+        width: 100%;
+    }
+    nav {
+        display: flex;
+        flex-wrap: inherit;
+        justify-content: space-between;
+        padding: 20px 0;
+        width: 100%;
+
+        a{
+            display: inline-block;
+            color: var(--tamsi-spalva);
+            line-height: 24px;
+            margin-right: 25px;
+            transition: color 300ms ease-in-out
+        }
+        a:hover{
+            color:aqua;
+
+            
+        }
+        #logo{
+            padding-left: 20px;
+            padding-right: 200px;
+        }
+    }
+    .header-footer{
+        margin-top: 50px;
+        display: flex;
+        /* gap: 100px; */
+        justify-content: space-between;
+        padding: 0 40px;
+        margin-bottom: 200px;
+            
+            img{
+                width: 20%;
+            }
+    .hero-img{
+        width: 20%;
+    }
+}
+
+}
